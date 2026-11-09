@@ -1,9 +1,3 @@
-import random
-
-def gen_random(num_count, begin, end):
-    rez = [random.randint(begin, end) for i in range(num_count)]
-    return rez
-
 class Unique(object):
     def __init__(self, items, **kwargs):
         self.items = iter(items)
